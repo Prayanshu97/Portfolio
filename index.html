@@ -36,7 +36,7 @@
                         <p>Coder and Web Developer</p>
                         <h1>Hi, I'm <span>Prayanshu</span> <br> Gupta from India</h1>
                     </div>
-                    <a href="my-cv.pdf" download class="btn">Download CV</a>
+                    <a href="/public/my-resume.pdf" download class="btn">Download Resume</a>
                 </div>
                 <div class="header-image">
                     <img src="/public/userimg.png" alt="">
@@ -56,7 +56,9 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title old">About Me</h1>
-                    <p>Highly motivated Computer Science student with a solid foundation in programming and software development. Seeking a dynamic environment to contribute to real-world projects and grow professionally. Interested in securing a position in a forward-thinking organization where I can leverage my technical skills, engage in impactful projects, and continue my professional growth through mentorship and exposure to innovative technologies.</p>
+                    <p class="about-me">
+                        Initiative-taking Computer Science student with a solid foundation in programming and software development. Seeking a dynamic environment to contribute to real world projects and grow professionally. Interested in securing a position in a forward thinking organization where I can leverage my technical skills, engage in impactful projects, and continue my professional growth through mentorship and exposure to innovative technologies.
+                    </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -65,47 +67,17 @@
                         <ul>
                             <li> <span>Programming Languages </span><br>C++, C, Java</li>
                             <li> <span>Web Development</span> <br>HTML, CSS, JavaScript, Node.js, React</li>
+                            <li> <span>Databases</span> <br>MySQL, MongoDB</li>
                             <li> <span>Problem Solving</span> <br>Data Structures, Algorithms, Competetive Programming</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li> <span>2022 - ongoing</span><br>B.tech in CSE - 9.07 CGPA</li>
-                            <li> <span>2021 - 2022</span> <br>Class XI - 97.4 %</li>
+                            <li> <span>2022 - 2026</span><br>B.Tech. in CSE - 9.07 CGPA</li>
+                            <li> <span>2021 - 2022</span> <br>Class XII - 97.4 %</li>
                             <li> <span>2019 - 2020</span> <br>Class X - 96.2 %</li>
                         </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ------SERVICES------ -->
-
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Developer</h2>
-                    <p>
-                        I possess a comprehensive skill set that spans both front-end and back-end development. On the front-end, I am proficient in HTML, CSS, and JavaScript, as well as popular framework such as React, allowing me to create intuitive, responsive, and visually appealing user interfaces. My back-end expertise includes working with server-side technologies like Node.js, Express and databases such as MySQL, MongoDB. 
-                    </p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-keyboard"></i>                   
-                    <h2>Data Structures</h2>
-                    <p>
-                        I am proficient in implementing fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs using C++. Additionally, I understand the intricacies of algorithm design, including sorting, searching, and traversal techniques. My grasp of DSA in C++ enables me to tackle algorithmic challenges, analyze time and space complexities, and devise optimal solutions that enhance the performance and scalability of software applications. 
-                    </p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-brain"></i>
-                    <h2> AI Technologies </h2>
-                    <p>
-                        I use AI-driven tools, harnessing their capacity to continually learn and improve. These AI systems streamline the identification and resolution of software issues providing the best performance. My proficiency in utilizing AI for bug fixing underscores my commitment to delivering high-quality, error-free software solutions while staying at the forefront of technological advancements in software development.
-                    </p>
                 </div>
             </div>
         </div>
@@ -145,6 +117,39 @@
         </div>
     </div>
 
+    
+    <!-- ------SERVICES------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>
+                        I possess a comprehensive skill set that spans both front-end and back-end development. On the front-end, I am proficient in HTML, CSS, and JavaScript, as well as popular framework such as React, allowing me to create intuitive, responsive, and visually appealing user interfaces. My back-end expertise includes working with server-side technologies like Node.js, Express and databases such as MySQL, MongoDB. 
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-keyboard"></i>                   
+                    <h2>Data Structures</h2>
+                    <p>
+                        I am proficient in implementing fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs using C++. Additionally, I understand the intricacies of algorithm design, including sorting, searching, and traversal techniques. My grasp of DSA in C++ enables me to tackle algorithmic challenges, analyze time and space complexities, and devise optimal solutions that enhance the performance and scalability of software applications. 
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2> AI Technologies </h2>
+                    <p>
+                        I use AI-driven tools, harnessing their capacity to continually learn and improve. These AI systems streamline the identification and resolution of software issues providing the best performance. My proficiency in utilizing AI for bug fixing underscores my commitment to delivering high-quality, error-free software solutions while staying at the forefront of technological advancements in software development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- ------CONTACT------ -->
 
     <div id="contact">
@@ -161,7 +166,7 @@
                     </div>
                 </div>
                 <div class="contact-right">
-                    <form form action="https://api.web3forms.com/submit" method="POST">
+                    <form form id="myForm" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="109110b3-21d9-4d0d-8495-73799784bc4a">
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
@@ -171,9 +176,14 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 
     <script>
+
+        window.onload = function() {
+            document.getElementById('myForm').reset();
+        };
+
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
