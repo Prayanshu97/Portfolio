@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/acfc76f697.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/public/favicon.png">
 </head>
@@ -52,30 +53,49 @@
             <h1 class="sub-title new">About Me</h1>
             <div class="row">
                 <div class="about-col-1">
-                    <img src="/public/user.png" alt="">
+                    <img src="/public/userimg2.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title old">About Me</h1>
                     <p class="about-me">
-                        Initiative-taking Computer Science student with a solid foundation in programming and software development. Seeking a dynamic environment to contribute to real world projects and grow professionally. Interested in securing a position in a forward thinking organization where I can leverage my technical skills, engage in impactful projects, and continue my professional growth through mentorship and exposure to innovative technologies.
+                        Motivated and detail-oriented Computer Science undergraduate with a strong grasp of programming concepts, data structures, and algorithms. Skilled in developing end-to-end web applications, writing clean, efficient code, and solving real-world problems. Now looking for opportunities to grow as a software developer in a challenging and collaborative environment.    
                     </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('certfications')">Certfications</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li> <span>Programming Languages </span><br>C++, C, Java</li>
-                            <li> <span>Web Development</span> <br>HTML, CSS, JavaScript, Node.js, React</li>
+                            <li> <span>Programming Languages </span><br>C++, C, Java, Python</li>
+                            <li> <span>Web Development</span> <br>HTML, CSS, JavaScript, Node.js, Express, React</li>
                             <li> <span>Databases</span> <br>MySQL, MongoDB</li>
-                            <li> <span>Problem Solving</span> <br>Data Structures, Algorithms, Competetive Programming</li>
+                            <li> <span>AI/ML</span> <br>Gemini AI, TensorFlow, Keras, NLTK</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li> <span>2022 - 2026</span><br>B.Tech. in CSE - 9.07 CGPA</li>
-                            <li> <span>2021 - 2022</span> <br>Class XII - 97.4 %</li>
-                            <li> <span>2019 - 2020</span> <br>Class X - 96.2 %</li>
+                            <li> <span>Madan Mohan Malaviya University Of Technology (2022 - 2026)</span><br>B.Tech. in Computer Science & Engineering - 9.13 CGPA</li>
+                            <li> <span>St. Francis Academy (2021 - 2022)</span> <br>Senior Secondary Examination - 97.4 %</li>
+                            <li> <span>St. Francis Academy (2019 - 2020)</span> <br>Secondary Examination - 96.2 %</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li> <span>GATE 2025</span><br>All India Rank of 3917 out of 170825 candidates.</li>
+                            <li> <span>Meta Hacker Cup 2024</span> <br>Global Rank 2898 among 22000+ participants.</li>
+                            <li> <span>Coding Profiles</span> 
+                                <br><a href="https://leetcode.com/u/Prayanshu97/" target="_blank"> Leetcode </a> Max. Rating 1765
+                                <br><a href="https://www.codechef.com/users/prayanshu97" target="_blank"> Codechef </a> Max. Rating 1715
+                                <br><a href="https://codeforces.com/profile/Prayanshu97" target="_blank"> Codeforces </a> Max. Rating 1399
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certfications">
+                        <ul>
+                            <li> <span>Getting Started with Competetive Programming - IIT Gandhinagar</span><br>Scored 90% and among Top 5% candidates.</li>
+                            <li> <span>Introduction to Machine Learning - IIT Madras</span> <br>Scored 88% and among Top 1% candidates.</li>
                         </ul>
                     </div>
                 </div>
@@ -90,28 +110,70 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="/public/work-1.png" alt="">
+                    <img src="/public/work-1.jpg" alt="">
                     <div class="layer">
                         <h3>TravelNest</h3>
                         <p>A dynamic online listing application where you can add your listings, add reviews and comments. Also locate the listing on map.</p>
-                        <a href="https://travelnest-bwp7.onrender.com" target="_blank"><i class="fa-solid fa-external-link-alt"></i></a>
+                        <div class="links">
+                            <a href="https://travelnest-bwp7.onrender.com/" target="_blank" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="https://github.com/Prayanshu97/TravelNest" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/public/work-2.png" alt="">
+                    <img src="/public/work-2.jpg" alt="">
                     <div class="layer">
                         <h3>Cravejet</h3>
                         <p>A food delivery app which offers seamless user experience. Order food by adding your details and test payment using stripe.</p>
-                        <a href="https://cravejet-frontend.onrender.com" target="_blank"><i class="fa-solid fa-external-link-alt"></i></a>
+                        <div class="links">
+                            <a href="https://cravejet-frontend.onrender.com/" target="_blank" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="https://github.com/Prayanshu97/CraveJet" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="work">
-                    <!-- <img src="/public/work-3.png" alt="">
+                    <img src="/public/work-3.jpg" alt="">
                     <div class="layer">
-                        <h3>UNDER DEVELOPMENT</h3>
-                        <p>UNDER DEVELOPMENT</p>
-                        <a href="#"><i class="fa-solid fa-external-link-alt"></i></a>
-                    </div> -->
+                        <h3>Predictive</h3>
+                        <p>A full-stack disease-prediction module via Gemini AI using patient history in MongoDB. Also has a mental health support chatbot.</p>
+                        <div class="links">
+                            <a href="#" target="_blank" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/public/work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>InterPrep</h3>
+                        <p>MockAI is an AI-powered mock interview platform that simulates real-world interview scenarios to help candidates practice and improve.</p>
+                        <div class="links">
+                            <a href="#" target="_blank" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/public/work-5.jpg" alt="">
+                    <div class="layer">
+                        <h3>VoyageMind</h3>
+                        <p>VoyageMind is an intelligent travel planning assistant that crafts personalized itineraries based on your preferences, budget, and time.</p>
+                        <div class="links">
+                            <a href="#" target="_blank" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/public/work-6.jpg" alt="">
+                    <div class="layer">
+                        <h3>InstaTalk</h3>
+                        <p>InstaTalk is a real-time chat application designed for fast, secure, and seamless communication</p>
+                        <div class="links">
+                            <a href="#" class="live-link"><i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="github-link"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,32 +183,93 @@
     <!-- ------SERVICES------ -->
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Developer</h2>
-                    <p>
-                        I possess a comprehensive skill set that spans both front-end and back-end development. On the front-end, I am proficient in HTML, CSS, and JavaScript, as well as popular framework such as React, allowing me to create intuitive, responsive, and visually appealing user interfaces. My back-end expertise includes working with server-side technologies like Node.js, Express and databases such as MySQL, MongoDB. 
-                    </p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-keyboard"></i>                   
-                    <h2>Data Structures</h2>
-                    <p>
-                        I am proficient in implementing fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs using C++. Additionally, I understand the intricacies of algorithm design, including sorting, searching, and traversal techniques. My grasp of DSA in C++ enables me to tackle algorithmic challenges, analyze time and space complexities, and devise optimal solutions that enhance the performance and scalability of software applications. 
-                    </p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-brain"></i>
-                    <h2> AI Technologies </h2>
-                    <p>
-                        I use AI-driven tools, harnessing their capacity to continually learn and improve. These AI systems streamline the identification and resolution of software issues providing the best performance. My proficiency in utilizing AI for bug fixing underscores my commitment to delivering high-quality, error-free software solutions while staying at the forefront of technological advancements in software development.
-                    </p>
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <!-- Full Stack Web Development -->
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Full Stack Web Development</h2>
+                <p>
+                    I build complete web applications using the MERN stack. From dynamic front-end interfaces to secure back-end APIs, I build and deliver high performance, scalable solutions tailored to user needs.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-react-original colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
                 </div>
             </div>
+
+            <!-- Database Design -->
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Design & Integration</h2>
+                <p>
+                    I design and manage databases using MongoDB and MySQL. My services include schema design, query optimization, and seamless integration with backend APIs to ensure efficient data flow and reliability.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-express-original colored"></i>
+                </div>
+            </div>
+
+            <!-- Cloud Deployment -->
+            <div>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <h2>Deployment & Hosting</h2>
+                <p>
+                    I deploy web applications on various platforms like Render and Vercel. From server configuration to custom domains and setup, I ensure smooth deployment for production-ready apps.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-nginx-original colored"></i>
+                    <i class="devicon-googlecloud-plain colored"></i>
+                </div>
+            </div>
+
+            <!-- DSA & CP -->
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Structures & Algorithms</h2>
+                <p>
+                    I write clean, optimized code to tackle programming challenges. With a deep understanding of data structures and algorithms, I approach problem-solving with precision and performance in mind.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-java-plain colored"></i>
+                </div>
+            </div>
+
+            <!-- AI-enhanced development -->
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>AI-Enhanced Development</h2>
+                <p>
+                    I utilize AI-powered tools to accelerate development, debug faster, and improve code quality. From smart suggestions to automated refactoring, I bring intelligent workflows to software projects.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-github-original colored"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+                </div>
+            </div>
+
+            <!-- API Development -->
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>API Development & Integration</h2>
+                <p>
+                    I create secure REST APIs using Express.js and integrate third-party services. My APIs are modular, scalable, and built to handle real-world business logic efficiently wothout any downtime or delays.
+                </p>
+                <div class="tech-icons">
+                    <i class="devicon-express-original colored"></i>
+                    <i class="devicon-postman-plain colored"></i>
+                </div>
+            </div>
+
         </div>
+    </div>
     </div>
 
 
@@ -207,8 +330,14 @@
         }
 
         function closemenu(){
-            sidemenu.style.right = "-200px";
+            sidemenu.style.right = "-100vw";
         }
+
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                closemenu();
+            });
+        });
 
     </script>
 
